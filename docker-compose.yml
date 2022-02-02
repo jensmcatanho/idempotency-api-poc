@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  idempotency-api:
+    build: .
+    ports:
+      - 8080:8080
